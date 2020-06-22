@@ -8703,6 +8703,10 @@ section.plumbing-repairing .plumbing-repairing-right a.read-more i {
   color: #fff;
   line-height: 20px;
 }
-.text-call-to-action{
+.call-to-action .nform-texts{
   margin-top: 3% !important;
+  color: #0087b8;
+  text-transform: none !important;
+  width: 100%;
+  font-size: 30px;
 }
