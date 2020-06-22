@@ -8682,3 +8682,23 @@ section.plumbing-repairing .plumbing-repairing-right a.read-more i {
   padding: 4% 2%;
   border: 1px dashed #333;
 }
+.row.important-info {
+  background: #e1444b;
+  padding: 4% 1%;
+}
+.row.important-info p{
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+}
+.row.important-info p:first-child{
+  font-size: 22px;
+  color: #fff;
+  line-height: 26px;
+}
+
+.row.important-info p i{
+  font-size: 18px;
+  color: #fff;
+  line-height: 20px;
+}
