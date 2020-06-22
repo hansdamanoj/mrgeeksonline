@@ -8535,7 +8535,7 @@ section.plumbing-repairing .plumbing-repairing-right a.read-more i {
 
 .nform-texts {
   float: left;
-  width: 450px;
+  /* width: 450px; */
   font: italic 17px/24px "Open Sans", sans-serif;
   color: #4ba4cd;
   letter-spacing: 0.3px;
