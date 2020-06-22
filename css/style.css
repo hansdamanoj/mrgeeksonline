@@ -8485,6 +8485,7 @@ section.plumbing-repairing .plumbing-repairing-right a.read-more i {
 .widget-footer .menu li a {
   letter-spacing: 0.3px;
   line-height: 20px;
+  font-size: 13px;
   color: #7e95a2;
 }
 .widget-footer .menu li a:hover, .widget-footer .menu li a:focus {
