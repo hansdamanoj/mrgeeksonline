@@ -8830,3 +8830,7 @@ section.plumbing-repairing .plumbing-repairing-right a.read-more i {
   -ms-transform: translateY(-3px);
   transform: translateY(-3px);
 }
+.hint--left i {
+  font-size: 20px;
+  color: #d4931c;
+}
