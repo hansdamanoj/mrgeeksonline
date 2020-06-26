@@ -8712,3 +8712,117 @@ section.plumbing-repairing .plumbing-repairing-right a.read-more i {
   width: 100%;
   font-size: 30px;
 }
+.demo-option-container {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  height: 100%;
+  width: 350px;
+  max-width: calc(100% - 45px);
+  z-index: 100000;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.demo-option-container.open {
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);
+  box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);
+}
+.aeroland__toolbar .inner {
+  position: absolute;
+  top: 200px;
+  right: 100%;
+  display: block;
+  width: 40px;
+  border: 1px solid #eee;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: -3px 0 10px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: -3px 0 10px -2px rgba(0, 0, 0, 0.1);
+}
+.aeroland__toolbar .inner a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #222;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.demo-option-wrapper {
+  height: 100%;
+  overflow-y: auto;
+  padding-bottom: 55px;
+}
+.demo-option-wrapper .demo-panel-header {
+  padding: 40px 30px 30px;
+  text-align: center;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.demo-option-wrapper .demo-panel-header {
+  padding: 40px 30px 30px;
+  text-align: center;
+}
+.title h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.contact-inner {
+  margin: 0 0 20px;
+}
+.contact-inner input, .contact-inner textarea {
+  width: 100%;
+  color: #000;
+  border-color: #f8f8f8;
+  background-color: #f8f8f8;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  border: none;
+  width: 100%;
+  outline: none;
+  border: 1px solid #eee;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-radius: 5px;
+  padding: 3px 20px;
+  height: 56px;
+}
+.contact-inner textarea {
+  height: 150px;
+  padding: 15px;
+}
+.ht-btn.ht-btn-md {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 45px;
+  height: 49px;
+  background: orange;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 0;
+  padding: 0 10%;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.ht-btn:hover, .ht-btn:active, .ht-btn:focus {
+  color: #ffffff;
+  background-image: #086AD8;
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
