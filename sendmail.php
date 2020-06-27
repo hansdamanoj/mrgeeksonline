@@ -1,7 +1,7 @@
 <?php
 
-    $site_owners_email = 'geekonline2019@gmail.com'; // Replace this with your own email address
-    $site_owners_name = 'Go to Geeks'; // replace with your name
+    $site_owners_email = 'info@mrgeeksonline.com.au'; // Replace this with your own email address
+    $site_owners_name = 'Mr Geeks Online'; // replace with your name
 	
 	$prep_name = $_POST['fname']?$_POST['fname']:''. " ". $_POST['lname']?$_POST['lname']:'';
 	$name = $_POST['name']?$_POST['name']:$prep_name;
