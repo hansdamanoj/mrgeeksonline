@@ -2834,6 +2834,9 @@ p.service_title {
   line-height: 40px;
   color: #fff;
 }
+#minimal-bootstrap-carousel.shop-slider3 .carousel-caption .this-mcaption-special {
+  padding: 15px 0 20px 0;
+}
 @media (max-width: 1199px) {
   #minimal-bootstrap-carousel.shop-slider3 .carousel-caption p {
     font-size: 18px;
