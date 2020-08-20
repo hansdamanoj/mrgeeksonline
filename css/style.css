@@ -8837,3 +8837,6 @@ section.plumbing-repairing .plumbing-repairing-right a.read-more i {
   font-size: 20px;
   color: #d4931c;
 }
+iframe {
+  pointer-events:none;
+}
