@@ -1387,8 +1387,8 @@ p {
   font-size: 15px;
   font-weight: normal;
   text-transform: capitalize;
-  padding: 0 32px;
-  line-height: 48px;
+  /* padding: 0 32px; */
+  line-height: 36px;
 }
 @media (max-width: 991px) {
   .plumber-navbar3 #plumber-nav li .dropdown-menu li a {
