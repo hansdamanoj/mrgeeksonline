@@ -8893,3 +8893,8 @@ iframe {
 .news-head{
   color: #fff;
 }
+
+.news-btn {
+  font-size: 14px;
+  text-transform: capitalize;
+}
