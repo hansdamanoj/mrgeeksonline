@@ -8840,3 +8840,51 @@ section.plumbing-repairing .plumbing-repairing-right a.read-more i {
 iframe {
   pointer-events:none;
 }
+
+.card {
+  font-size: 1.5rem;
+  position: relative;
+  display: block;
+  margin-bottom: .75rem;
+  /* background-color: #fff; */
+  border-radius: .25rem;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.welcome-section .card-body {
+  padding: 10%;
+  background: #e1444b;
+  color: #fff;
+  -webkit-box-shadow: 6px 6px 26px 0px rgba(199,197,199,1);
+  -moz-box-shadow: 6px 6px 26px 0px rgba(199,197,199,1);
+  box-shadow: 6px 6px 26px 0px rgba(199,197,199,1);
+}
+
+.card-body p {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+}
+
+.card-body p i{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+.card-body li {
+  line-height: 30px;
+}
+
+.welcome-section-spl{
+  background: #e1444b;
+  padding: 40px 20px;
+}
+.welcome-section-spll{
+  /* background: #e1444b; */
+  padding: 50px 20px;
+}
+
+.welcome-section-spl .card{
+  border: 0;
+}
