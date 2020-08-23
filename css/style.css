@@ -8852,7 +8852,7 @@ iframe {
 }
 .welcome-section .card-body {
   padding: 10%;
-  background: #e1444b;
+  background: #e03535;
   color: #fff;
   -webkit-box-shadow: 6px 6px 26px 0px rgba(199,197,199,1);
   -moz-box-shadow: 6px 6px 26px 0px rgba(199,197,199,1);
@@ -8877,7 +8877,7 @@ iframe {
 }
 
 .welcome-section-spl{
-  background: #e1444b;
+  background: #e03535;
   padding: 40px 20px;
 }
 .welcome-section-spll{
