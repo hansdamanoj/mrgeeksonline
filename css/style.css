@@ -8857,6 +8857,7 @@ iframe {
   -webkit-box-shadow: 6px 6px 26px 0px rgba(199,197,199,1);
   -moz-box-shadow: 6px 6px 26px 0px rgba(199,197,199,1);
   box-shadow: 6px 6px 26px 0px rgba(199,197,199,1);
+  min-height: 424px;
 }
 
 .card-body p {
