@@ -7,6 +7,7 @@
 @import 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700';
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 /*Font Variables*/
 /*====================================================*/
 body{
@@ -8897,4 +8898,98 @@ iframe {
 .news-btn {
   font-size: 14px;
   text-transform: capitalize;
+}
+
+.modal{
+  z-index: 9999;
+}
+.modal .btn{
+  background: #e1444b;
+}
+
+.part {
+  margin-bottom: 30px;
+}
+.part h4 {
+  font-size: 16px;
+  color: #ec1117;
+  line-height: 1;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+ul.common-list li {
+  font-size: 16px;
+  color: #2961ad;
+  padding-left: 13px;
+  line-height: 1;
+  position: relative;
+  font-family: 'Myriad Pro Regular';
+}
+.part .common-list li {
+  margin-top: 14px;
+}
+ul.common-list li::before {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #2961ad;
+  content: "";
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+ul.common-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.comon-title {
+  font-size: 16px;
+  color: #ec1117;
+  line-height: 1;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+ul.common-list li {
+  font-size: 16px;
+  color: #2961ad;
+  padding-left: 13px;
+  line-height: 1;
+  position: relative;
+  font-family: 'Maven Pro', sans-serif;
+}
+.common-list.common li {
+  line-height: 31px;
+  font-family: 'Maven Pro', sans-serif;
+}
+.welcome-section-map .this-title{  
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+}
+
+.cta-area {
+  background: #e4e4e4;
+  padding: 30px 0;
+  text-align: center;
+}
+.section-title h2 {
+  font-size: 40px;
+  color: #1d4d94;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 18px;
+  font-family: 'Myriad Pro Semibold';
+}
+.section-title.cta h2 {
+  color: #000;
+  margin-bottom: 15px;
+}
+.section-title.cta p {
+  font-size: 28px;
+  color: #000;
+  text-transform: uppercase;
 }
