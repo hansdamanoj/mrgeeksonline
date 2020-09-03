@@ -8993,3 +8993,15 @@ ul.common-list li {
   color: #000;
   text-transform: uppercase;
 }
+.location-list h3 {
+  font-size: 16px;
+  color: #ec1117;
+  line-height: 1;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+.list ul li{
+  margin-bottom: 6px;
+}
