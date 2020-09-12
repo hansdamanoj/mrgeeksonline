@@ -3505,7 +3505,7 @@ ol {
 }
 @media (min-width: 1024px) {
 	.contact-form__wrapper {
-		padding: 5rem !important
+		padding: 2rem !important
 	}
 }
 .shadow-lg, .shadow-lg--on-hover:hover {
