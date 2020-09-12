@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mr Geeks Online | Shop</title>
-
+    
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-
+    
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -30,7 +30,7 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
-
+    
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
@@ -89,7 +89,7 @@
         </div>
     </div>
     <!-- Humberger End -->
-
+    
     <!-- Header Section Begin -->
     <header class="header">
         <div class="header__top">
@@ -169,7 +169,7 @@
         </div>
     </header>
     <!-- Header Section End -->
-
+    
     <!-- Hero Section Begin -->
     <section class="hero">
         <div class="container">
@@ -218,7 +218,7 @@
                             <!-- <span>FRUIT FRESH</span> -->
                             <h2>USB <br />FLASH DRIVE</h2>
                             <p>@ BEST PRICE</p>
-                            <a href="#" class="primary-btn">SHOP NOW</a>
+                            <a href="javascript:void(0);" class="primary-btn" data-toggle="modal" data-target="#myModal">SHOP NOW</a>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
         </div>
     </section>
     <!-- Hero Section End -->
-
+    
     <!-- Categories Section Begin -->
     <section class="categories">
         <div class="container">
@@ -262,7 +262,7 @@
         </div>
     </section>
     <!-- Categories Section End -->
-
+    
     <!-- Featured Section Begin -->
     <section class="featured spad">
         <div class="container">
@@ -512,7 +512,7 @@
         </div>
     </section>
     <!-- Featured Section End -->
-
+    
     <!-- Banner Begin -->
     <div class="banner mb-5">
         <div class="container">
@@ -531,7 +531,7 @@
         </div>
     </div>
     <!-- Banner End -->
-
+    
     <!-- Latest Product Section Begin -->
     <!-- <section class="latest-product spad">
         <div class="container">
@@ -735,7 +735,7 @@
         </div>
     </section> -->
     <!-- Latest Product Section End -->
-
+    
     <!-- Blog Section Begin -->
     <!-- <section class="from-blog spad">
         <div class="container">
@@ -796,62 +796,116 @@
         </div>
     </section> -->
     <!-- Blog Section End -->
-
-
-     <!-- The Modal -->
-  <div class="modal" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Product Enquiry</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+    
+    
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Product Enquiry</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <!-- <form class="form">
+                        <h2>CONTACT US</h2>
+                        <p type="Name:"><input placeholder="Write your name here.."></input></p>
+                        <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+                        <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
+                        <button>Send Message</button>
+                        <div>
+                            <span class="fa fa-phone"></span>001 1023 567
+                            <span class="fa fa-envelope-o"></span> contact@company.com
+                        </div>
+                    </form> -->
+                    <!-- <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="pwd">Name:</label>
+                            <input type="text" class="form-control" placeholder="Enter Full Name" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" placeholder="Enter email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Phone:</label>
+                            <input type="text" class="form-control" placeholder="Enter phone number" id="phone" name="tel">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form> -->
+                    <div class="container">
+                        <div class="contact__wrapper shadow-lg mt-n9">
+                            <div class="row no-gutters">
+                                
+                                <div class="col-lg-12 contact-form__wrapper order-lg-1">
+                                    <form action="#" class="contact-form form-validate" novalidate="novalidate">
+                                        <div class="row">
+                                            <div class="col-sm-6 mb-3">
+                                                <div class="form-group">
+                                                    <label class="required-field" for="firstName">First Name</label>
+                                                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Wendy">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 mb-3">
+                                                <div class="form-group">
+                                                    <label for="lastName">Last Name</label>
+                                                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Appleseed">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 mb-3">
+                                                <div class="form-group">
+                                                    <label class="required-field" for="email">Email</label>
+                                                    <input type="text" class="form-control" id="email" name="email" placeholder="wendy.apple@seed.com">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 mb-3">
+                                                <div class="form-group">
+                                                    <label for="phone">Phone Number</label>
+                                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="(021)-454-545">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-12 mb-3">
+                                                <div class="form-group">
+                                                    <label class="required-field" for="message">How can we help?</label>
+                                                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Hi there, I would like to....."></textarea>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-12 mb-3">
+                                                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                                            </div>
+                                            
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- End Contact Form Wrapper -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <div>
+                        <span class="fa fa-phone"></span>1300-147-612 &nbsp;
+                        <span class="fa fa-envelope-o"></span> info@mrgeeksonline.com.au
+                    </div>
+                </div>
+                
+            </div>
         </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-            <!-- <form class="form">
-                <h2>CONTACT US</h2>
-                <p type="Name:"><input placeholder="Write your name here.."></input></p>
-                <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
-                <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
-                <button>Send Message</button>
-                <div>
-                  <span class="fa fa-phone"></span>001 1023 567
-                  <span class="fa fa-envelope-o"></span> contact@company.com
-                </div>
-              </form> -->
-            <form action="/action_page.php">
-                <div class="form-group">
-                  <label for="pwd">Name:</label>
-                  <input type="text" class="form-control" placeholder="Enter Full Name" id="name" name="name">
-                </div>
-                <div class="form-group">
-                  <label for="email">Email address:</label>
-                  <input type="email" class="form-control" placeholder="Enter email" id="email" name="email">
-                </div>
-                <div class="form-group">
-                  <label for="pwd">Phone:</label>
-                  <input type="text" class="form-control" placeholder="Enter phone number" id="phone" name="tel">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer">
-            <div>
-                <span class="fa fa-phone"></span>1300-147-612 &nbsp;
-                <span class="fa fa-envelope-o"></span> info@mrgeeksonline.com.au
-              </div>
-        </div>
-        
-      </div>
     </div>
-  </div>
-  
-
+    
+    
     <!-- Footer Section Begin -->
     <footer class="footer spad">
         <div class="container">
@@ -910,28 +964,28 @@
                 <div class="col-lg-12">
                     <div class="footer__copyright">
                         <div class="footer__copyright__text"><p><!-- Link back to manojhansda can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Developed by <a href="https://manojhansda.com" target="_blank">manojhansda</a>
-  <!-- Link back to manojhansda can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Developed by <a href="https://manojhansda.com" target="_blank">manojhansda</a>
+                            <!-- Link back to manojhansda can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                            <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/fragments.js"></script>
-
-
-</body>
-
-</html>
+        </footer>
+        <!-- Footer Section End -->
+        
+        <!-- Js Plugins -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/fragments.js"></script>
+        
+        
+    </body>
+    
+    </html>
